@@ -15,10 +15,20 @@
 
 class MyClass:
 
+    class_var = "클래스 변수"
+
+    @classmethod
+    def class_method(cls):
+        return cls.class_var
+
     @staticmethod
     def static_method(param1, param2):
         return param1 + param2
+
+print(MyClass.class_method())
+print(MyClass.static_method(5, 7))
     
+# 예제
 class Korean:
     country = '한국'
 
