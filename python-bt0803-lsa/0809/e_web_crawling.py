@@ -18,6 +18,9 @@ response = requests.get(url)
 print("Status Code : ", response.status_code)
 
 # 웹 페이지의 내용 출력
-print(response.text)
+# print(response.text)
+
+# 웹 페이지의 내용을 0번째 인덱스부터 99번까지 출력
+print(response.text[:100]) 
 
 # pip install requests
