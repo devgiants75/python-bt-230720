@@ -24,6 +24,8 @@ response.raise_for_status()
 soup = BeautifulSoup(response.text, 'lxml')
 # 전체 영역에서 'class_='text'를 찾지 않고
 # 실시간 인기 웹툰 영역으로 범위 제한
+print(soup.prettify())
+
 cartoonsBox = soup.find('div', attrs={'class': 'component_wrap'})
 
 # 실시간 인기 웹툰 영역에서 class명이 text인 값을 모두 가져와서 cartoons 변수에 할당
