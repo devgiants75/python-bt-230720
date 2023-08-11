@@ -1,0 +1,15 @@
+1. 기본 명령어
+
+git init: 깃 저장소 초기화
+- 새로운 폴더(디렉터리)에 새롭게 깃을 연결하고 싶은 경우
+
+git status: 현재 상태 확인
+git add: 변경사항 스테이징
+git commit: 변경사항 커밋
+
+2. 저장소와의 연동
+
+git remote: 원격 저장소 연결
+git push: 변경사항 푸시
+git pull: 변경사항 가져오기
+git clone: 저장소 복제

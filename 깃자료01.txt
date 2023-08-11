@@ -1,0 +1,14 @@
+1. 자격 증명 관리자 -> windows 자격 증명 -> 일반 자격 증명 -> 
+   git:https://github.com  [타인 것으로 되어 있는지] 타인 것으로 되어 있으면 제거
+   sourcetree [해당 영역도 타인의 것으로 되어 있는 경우 제거]
+1 - 1. 브라우저에서 github 로그인 상태 확인
+
+git bash
+
+2. git config --global user.name
+    본인 github 아이디 인지 확인 
+    변경방법: git config --global user.name 본인아이디
+
+3. git config --global user.email
+    본인 github 이메일 인지 확인 
+    변경방법: git config --global user.email 본인이메일

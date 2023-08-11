@@ -1,0 +1,13 @@
+깃허브에서 새로운 레파지토리 생성
+작업 디렉토리를 새로 생성(새 폴더) 우클릭 - git bash here
+
+깃허브에서 새롭게 만든 레파지토리의 명령어를 복사 붙여넣기
+
+echo "# -" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin 레파지토리주소
+git push -u origin main
+
