@@ -1,0 +1,12 @@
+git add .
+git commit -m "메시지"
+git push origin main
+
+git init
+git remote add origin https://github.com/devgiants75/python-bt-230720.git
+git pull origin main
+
+학원 코딩 - git push origin main
+집 - git pull origin main (학원 작업물을 모두 다운 받고)
+집 코딩 - git push origin main
+학원 - git pull origin main (집 작업물을 모두 다운)
