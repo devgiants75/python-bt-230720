@@ -57,8 +57,15 @@ print(평균2021)
 print(평균2022)
 
 import matplotlib.pyplot as plt
+import platform
 
 figure = plt.figure()
+
+# 현재 사용중인 PC의 OS에 따라서 matplotlib의 폰트를 다르게 설정해주는 코드
+if platform.system() == 'Darwin': # Mac OS
+    plt.rc('font', family='AppleGothic')
+else:
+    plt.rc('font', family='Malgun Gothic')
 
 axes = figure.add_subplot(3, 1, 1)
 
